@@ -1,0 +1,25 @@
+name = "RounDeck"
+version = "0.3.0"
+link = "TODO"
+source = "TODO"
+min-crankshaft-version = "0.2.2"
+
+[author]
+name = "ZeroPoke"
+link = "zeropoke.net"
+
+[entrypoints]
+
+	[entrypoints.desktop]
+	library = true
+	menu = true
+
+	[entrypoints.deck]
+	library = true
+	menu = true
+	quick-access = true
+
+[store]
+description = """
+Rounds the Edges of most things.  Pretty much just a port of EMERALD0874 work.  https://github.com/EMERALD0874
+"""

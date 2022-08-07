@@ -1,0 +1,372 @@
+export var EMERALD0874Main:String
+EMERALD0874Main = `
+
+https://github.com/EMERALD0874
+MIT License
+
+Copyright (c) 2022 EMERALD
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+:root {
+	--round-radius-size: none;
+  }
+  
+  /* General */
+  .DialogInput {
+	border-radius: 20px;
+	overflow: hidden;
+  }
+  button.gamepaddialog_Button_1kn70.DialogButton,
+  button.gamepaddialog_Button_1kn70.DialogButton.Primary,
+  button.gamepaddialog_Button_1kn70.DialogButton:enabled,
+  button.gamepaddialog_Button_1kn70.DialogButton:enabled.Primary,
+  button.gamepaddialog_Button_1kn70.DialogButton:active,
+  button.gamepaddialog_Button_1kn70.DialogButton:active.Primary,
+  button.gamepaddialog_Button_1kn70.DialogButton:hover,
+  button.gamepaddialog_Button_1kn70.DialogButton:hover.Primary,
+  button.gamepaddialog_Button_1kn70.DialogButton:enabled:active:hover,
+  button.gamepaddialog_Button_1kn70.DialogButton:enabled:active:hover.Primary,
+  div.basiccontextmenu_contextMenuContents_TBSbv {
+	border-radius: 20px;
+  }
+  .ModalPosition_Content
+	> div:not(.ModalPosition_TopBar):not(.ModalPosition_Dismiss) {
+	border-radius: 20px;
+  }
+  
+  /* Recent games and library */
+  .libraryassetimage_Image_24_Au {
+	border-radius: 20px;
+  }
+  .appportrait_LibraryItemBox_WYgDg {
+	border-radius: 20px;
+  }
+  .BasicUI .appportrait_LibraryItemBox_WYgDg::after {
+	border-radius: 20px;
+  }
+  .gamepadsearch_ResultTemplateImage_3K3Bx {
+	border-radius: 20px;
+  }
+  .BasicUI .libraryassetimage_GreyBackground_2E7G8 {
+	border-radius: 20px;
+  }
+  .BasicUI .allcollections_Collection_3IWn- {
+	border-radius: 20px;
+	overflow: hidden; /* This is to prevent the collection image from overflowing the collection box */
+  }
+  .steamdeckcompatfilter_CompatFilterDialog_21qvB {
+	border-radius: 20px;
+  }
+  .steamdeckcompatfilter_CompatFilterDialogRow_O7cW3:nth-child(1) {
+	border-radius: 20px 20px 0px 0px;
+  }
+  .steamdeckcompatfilter_CompatFilterDialogRow_O7cW3:nth-child(4) {
+	border-radius: 0px 0px 20px 20px;
+  }
+  .steamdeckcompatfilter_CompatFilterDialogRow_O7cW3:last-child {
+	border-radius: 20px;
+  }
+  .steamdeckcompatfilter_CompatFilterDialogRow_O7cW3:nth-of-type(1):nth-last-child(3) {
+	border-radius: 20px !important;
+  }
+  .BasicUI
+	.appfilterpane_Container_170Np
+	.appfilterpane_FilterArea_1ennW
+	.appfilterpane_FilterBucket_1axoi {
+	border-radius: 20px;
+  }
+  .appportrait_AppPortraitBanner_N8aJr {
+	border-radius: 20px;
+  }
+  .gamepadlibrary_AppGridFilterHeader_eGFYo {
+	border-radius: 20px;
+  }
+  .basicgamecarousel_TextBoxCarouselContents_3bvCH {
+	border-radius: 20px;
+  }
+  
+  /* What's new */
+  .gamepadhomewhatsnew_Darkener_1n_1X {
+	border-radius: 20px 20px 0px 0px;
+  }
+  .gamepadhomewhatsnew_EventImage_116GS {
+	border-radius: 20px 20px 0px 0px;
+  }
+  .gamepadhomewhatsnew_EventPreviewOuterWrapper_10b1V:hover
+	.gamepadhomewhatsnew_EventImage_116GS,
+  .gpfocus .gamepadhomewhatsnew_EventImage_116GS {
+	border-radius: calc(20px + 10px)
+	  calc(20px + 10px) 0px 0px;
+  }
+  .gamepadhomewhatsnew_EventInfo_6TGe7 {
+	border-radius: 0px 0px 20px 20px;
+  }
+  .recentlycompleted_RecentlyCompletedItem_3OC7i {
+	border-radius: 20px;
+	overflow: hidden;
+  }
+  .marketingmessages_MarketingMessage_28UlE {
+	border-radius: 20px;
+	overflow: hidden;
+  }
+  
+  /* Trending among friends (annoying to mess with outlines with, sorry if this is confusing lol) */
+  .gamecapsule_GameCapsule_fXdhj .gamecapsule_BottomBar_3-GyQ {
+	height: 30px;
+	border-radius: 0px 0px 20px 20px;
+  }
+  .gamecapsule_GameCapsule_fXdhj
+	> .libraryassetimage_GreyBackground_2E7G8
+	> img.libraryassetimage_Image_24_Au.libraryassetimage_Visibility_3d_bT.libraryassetimage_Visible_yDr03 {
+	border-radius: 0px;
+  }
+  .gamecapsule_GameCapsule_fXdhj > .libraryassetimage_GreyBackground_2E7G8 {
+	border-radius: 20px 20px 0px 0px;
+	overflow: hidden;
+  }
+  .gamecapsule_GameCapsule_fXdhj {
+	background-color: #00000000;
+  }
+  .gamecapsule_Friends_3gKVI {
+	margin-left: 10px;
+  }
+  .gamecapsule_InLibrary_fyHna {
+	border-radius: 20px;
+  }
+  
+  /* Friends */
+  .gamepadhomefriends_FavoriteFriend_3SLpz,
+  .gamepadhomefriends_GoToFriends_MVc_6 {
+	border-radius: 20px;
+  }
+  .gamepadhomefriends_InGameGame_KLo2n {
+	border-radius: 20px;
+  }
+  .BasicUI
+	.appactivityday_ActivityAchievementUnlocked_yJLy7
+	.appactivityday_PrimaryAchievement_26Qli {
+	border-radius: 20px;
+  }
+  .appactivityday_Event_UVeN0 {
+	border-radius: 20px;
+	overflow: hidden;
+  }
+  .appactivityday_PlayedGameFirstTime_3fdEo
+	> .appactivityday_EventHeadline_QCKBq {
+	border-radius: 20px;
+  }
+  .BasicUI .appactivityday_Event_UVeN0 .appactivityday_EventBody_NEMXh {
+	border-radius: 0px 0px 20px 20px;
+  }
+  .BasicUI
+	.appactivityday_ActivityAchievementUnlocked_yJLy7
+	.appactivityday_PrimaryAchievement_26Qli {
+	border-radius: 20px;
+  }
+  .BasicUI
+	.appactivityday_ScreenshotCarousel_1pdQd
+	.appactivityday_CarouselThumbs_1tRKR
+	.appactivityday_CarouselThumb_1Lot- {
+	border-radius: 20px;
+	overflow: hidden;
+  }
+  .gamepadsearch_ResultTemplateImage_3K3Bx {
+	border-radius: 20px;
+	overflow: hidden;
+  }
+  .FriendPickerFriendList,
+  .FriendPickerFriendList._DialogInputContainer {
+	border-radius: 20px;
+  }
+  
+  /* Game details */
+  .BasicUI .spotlightgameplaysummary_SummaryCarouselContainer_wgbDI {
+	border-radius: 20px;
+  }
+  .BasicUI
+	.appdetailssection_AppDetailsSectionContainer_31ptF.appdetailssection_RightColumnSection_3KfxI {
+	border-radius: 20px;
+  }
+  .BasicUI .spotlightgameplaysummary_SummaryAchievement_qBmIH {
+	border-radius: 20px;
+  }
+  .posttextentry_PostTextEntry_3x31A .posttextentry_PostTextEntryArea_1JlC2 {
+	border-radius: 20px;
+  }
+  .appdetailsachievementssection_AchievementCarouselItem_mbFSn.appdetailsachievementssection_Detailed_3KGi6 {
+	border-radius: 20px;
+  }
+  .BasicUI .appdetailscommunityfeed_CommunityItem_3QS6O {
+	border-radius: 20px;
+  }
+  .appdetailscommunityfeed_ArtItem_1aP1b {
+	border-radius: 20px 20px 0px 0px;
+  }
+  .appdetailsgameinfopanel_DeckVerifiedInfo_IIJei
+	.appdetailsgameinfopanel_Details_3sfpA {
+	border-radius: 20px;
+  }
+  .BasicUI .appdetailsprimarylinkssection_Anchor_DY4_w {
+	border-radius: 20px;
+  }
+  .basicappdetailssectionstyler_DeckVerifiedFeedbackConfirmationContainer_3G0l_,
+  .basicappdetailssectionstyler_DeckVerifiedFeedbackContainer_3Y8xV {
+	border-radius: 20px;
+  }
+  .basicappdetailssectionstyler_DeckVerifiedFeedbackConfirmationContainer_3G0l_
+	.basicappdetailssectionstyler_DeckVerifiedFeedbackButton_2F-oC,
+  .basicappdetailssectionstyler_DeckVerifiedFeedbackContainer_3Y8xV
+	.basicappdetailssectionstyler_DeckVerifiedFeedbackButton_2F-oC {
+	border-radius: 20px;
+  }
+  .BasicUI .appdetailssection_Highlight_38t1m {
+	border-radius: 20px 20px 0 0;
+  }
+  .appdetailsactivitysection_NoActivity_2-kDc,
+  .appdetailsactivitysection_Loading_3UShz {
+	border-radius: 20px;
+  }
+  .appdetailsgameinfopanel_DeckVerifiedInfo_IIJei {
+	border-radius: 20px;
+  }
+  .basicappdetailssectionstyler_AppActionButton_QsZdW.appactionbutton_PlayButtonContainer_1FnJ6 {
+	border-radius: 20px;
+	overflow: hidden;
+  }
+  .basicappdetailssectionstyler_AppButtons_1thLD /* This makes the button a circle */
+	.appdetailsplaysection_MenuButton_3qDWQ {
+	border-radius: 20px;
+  }
+  
+  /* Media */
+  .mediapage_ImageContainer_120HU {
+	border-radius: 20px;
+  }
+  .mediapage_Screenshot_3Qh8h {
+	border-radius: 20px;
+  }
+  
+  /* Downloads */
+  .downloads_Button_3oavR.gamepaddialog_Button_1kn70.DialogButton[type="button"], /* This makes the button a circle */
+  .downloads_SectionItem_1VNuY,
+  .downloads_RemoveAllButton_1GdR5 {
+	border-radius: 20px;
+  }
+  .downloads_Active_IbePL
+	> .downloads_SectionList_OINnO
+	> .downloads_SectionItemWrapper_21P7c
+	> .downloads_SectionItem_1VNuY {
+	border-radius: 0px !important;
+  }
+  .downloadgraph_HeroContainer_3WauY > .libraryassetimage_GreyBackground_2E7G8,
+  .downloadgraph_HeroContainer_3WauY
+	> .libraryassetimage_GreyBackground_2E7G8
+	> .libraryassetimage_Image_24_Au {
+	border-radius: 0px !important;
+  }
+  
+  /* Mods */
+  .CssLoader_ThemeBrowser_SingleItem_BgImage,
+  .CssLoader_ThemeBrowser_SingleItem_BgOverlay {
+	border-radius: 20px !important;
+	overflow: hidden;
+  }
+  
+  /* Main-Menu Guides */
+  .overlayguides_GuideListItemBase_1etIu {
+	border-radius: 20px;
+  }
+  
+  /* Main-Menu Achievements */
+  .mainmenuapprunning_OverlayAchievements_2Qced
+	.achievementslist_AchievementListItemBase_2Kmn7,
+  .mainmenuapprunning_OverlayAchievements_2Qced
+	.achievementslist_GlobalAchievementListItem_316Uo,
+  .mainmenuapprunning_OverlayAchievements_2Qced
+	.achievementslist_AchievementList_1UXC2,
+  .mainmenuapprunning_OverlayAchievements_2Qced
+	.achievementsheader_StatsBlock__gDkI {
+	border-radius: 20px;
+  }
+  
+  /* Exit Game Dialog */
+  .gamepaddialog_GamepadDialogContent_3joNk:not(.gamepadpagedsettings_PagedSettingsDialog_PageContent_wIOLO) {
+	border-radius: 20px;
+  }
+  
+  /* Settings */
+  .DialogCheckbox_Container,
+  .gamepadslider_EditableValue_2DXnl {
+	border-radius: 20px !important;
+  }
+  
+  .controllerconfigurator_interstitial_ControlLabel_tGJeF,
+  .controllerconfiguratorchooseconfiguration_ConfigurationButton_2luCN, /* This is selecting a controller layout */
+  .controllerconfigurator_CommunityConfigsCallout_1xfC8 {
+	border-radius: 20px;
+  }
+  
+  .appproperties_AppProperties_1FyBL
+	.DialogBody
+	.appproperties_TopGapSmall_2evqi {
+	margin-top: 0px !important;
+  }
+  
+  /* Options Container  */
+  /* 
+	The majority of styles in this section were removed due to each container 
+	lacking the specificity needed to properly style them
+  */
+  .basiccontextmenu_contextMenuContents_TBSbv:first-child
+	.basiccontextmenu_ContextMenuSeparator_zVMb1 {
+	/* 
+	  This is here as sometimes the menu separators get stuck at 0px height and you can't change it with css
+	  so instead of relying on the height property, we use padding. 
+	*/
+	height: 0px;
+	padding-top: 2px;
+  }
+  
+  .basiccontextmenu_contextMenuContents_TBSbv:first-child:not(.basiccontextmenu_hasSubMenu_1Mql2)
+	.basiccontextmenu_contextMenuItem_3PqLg:nth-last-child(1),
+  .basiccontextmenu_contextMenuContents_TBSbv:first-child.basiccontextmenu_hasSubMenu_1Mql2
+	.basiccontextmenu_contextMenuItem_3PqLg:nth-last-child(2) {
+	border-radius: 20px;
+  }
+  
+  .basiccontextmenu_contextMenuContents_TBSbv:first-child:not(.basiccontextmenu_hasSubMenu_1Mql2)
+	.basiccontextmenu_contextMenuItem_3PqLg:nth-last-child(3),
+  .basiccontextmenu_contextMenuContents_TBSbv:first-child.basiccontextmenu_hasSubMenu_1Mql2
+	.basiccontextmenu_contextMenuItem_3PqLg:nth-last-child(4) {
+	border-radius: 0px 0px 20px 20px;
+  }
+  
+  .BasicUI .appactionbutton_ButtonChild_2AzIX {
+	overflow: hidden;
+  }
+  .BasicUI .appactionbutton_ButtonChild_2AzIX.Focusable:focus:focus::after {
+	transform: scaleX(1.1);
+  }
+  
+  /* Activate Product Dialog */
+  .activateproductdialog_ProductActivationInfoContainer_1Amz7 {
+	border-radius: 20px;
+  }
+`;
