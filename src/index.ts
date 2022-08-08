@@ -44,12 +44,20 @@ function InjectRoundDeck() {
 		}
 
 		.cs-gp-focus {
-			border-radius: 20px;
+			border-radius: 20px  !important;
 			cursor: pointer;
 		}
 
 		.smm-menu-item-button {
 			border-radius: 20px;
+		}
+
+		.csfd-button {
+			border-radius: 20px !important;
+		}
+
+		.cs-button {
+			border-radius: 20px !important;
 		}
 	`;
 
